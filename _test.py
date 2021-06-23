@@ -45,6 +45,14 @@ def test_test_FAQ(browser):
     main_page.FAQ5()
 
 
+test_holders()
+test_menu_guarantees()
+test_menu_clicks()
+test_buy_DFX()
+test_read_article_and_proofs()
+test_footer()
+test_test_FAQ()
+
 
 
 
