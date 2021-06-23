@@ -136,7 +136,6 @@ class clicks(BasePage):
         click_FAQ1_bsc.click()
         self.click_top_DOT()
 
-    @allure.footer('footer')
     def footer(self):
         click_footer_logo = self.find_element(Locators.footer_logo_LOCATOR).click()
         click_footer_audit = self.find_element(Locators.footer_audit_LOCATOR).click()
